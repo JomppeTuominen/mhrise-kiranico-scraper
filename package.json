@@ -9,11 +9,15 @@
     "watch": "./node_modules/.bin/esbuild index.ts --bundle --platform=node --watch --outfile=dist/index.js"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.30",
     "@types/node-fetch": "^2.5.12",
+    "aws-sdk": "^2.972.0",
     "node-fetch": "^2.6.1"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.172",
     "cheerio": "^1.0.0-rc.10",
-    "esbuild": "^0.12.20"
+    "esbuild": "^0.12.20",
+    "lodash": "^4.17.21"
   }
 }
